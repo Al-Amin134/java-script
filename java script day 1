@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // let a = 34; //ekhane variable a declare kra hoyeche
+        // let a = "this is me"; //variable a te ekta string declare kra hoyeche
+        
+      /*  var a = 12;
+        var a =14;
+        */
+       // evabe likhle amra variable change krte parbo but let diye declare krle change krte parbona.
+        
+
+       const a = 4;
+       //etar jnno same variable a ekadhik value rakha jabea
+       console.log(a);
+
+        // some data types
+        /*
+        1. Numbers
+        2. Objects
+        3. Booleans
+        4. String
+        5. Undefined
+        6. null
+        */
+// kono function declaration er jnno
+
+        function hello()
+        {
+            console.log("Hello Rakib");
+        }
+
+        let obj={
+            r:34,
+            m:12,
+            func: function myfunc(number){
+                console.log("The number is : S" +number);
+            }
+        }
+
+
+
+        //eta output dekhanor jnno type krbo : obj.func(34);
+        // Then ja dekhte pabo : The number is 34
+
+        // Event //
+
+
+        document.addEventListener("click", function click() {
+            console.log("clicked");
+
+            let conf = confirm("Are you sure to do this ?");
+            console.log(conf);
+        })
+
+               // array
+                //for(let index=0;index<a.length;i++)
+                //const element = a[index];
+                let arr = [34,33,56];
+
+    </script>
+</head>
+<body>
+
+    I love My University
+    
+</body>
+</html>
